@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import React from 'react';
-import { FaPlus } from 'react-icons/fa';
+import Link from "next/link";
+import React from "react";
+import { FaPlus } from "react-icons/fa";
 
 const ContactAreaFour = () => {
   return (
@@ -35,13 +35,13 @@ const ContactAreaFour = () => {
               data-aos-duration="1500"
             >
               <div className="section-title mb-0 mt-5 mt-lg-0">
-                <h6 className="sub-title">GET IN TOUCH</h6>
+                <h6 className="sub-title">Let’s Connect</h6>
                 <h2 className="title">
-                  Your Business To <span>Growth</span> Please Touch ?
+                  Transform Your <span>Business</span>
                 </h2>
                 <p className="content">
-                  For your car we will do everything advice design in us repairs
-                  and maintenance. We are the some preferred.
+                  Ready to elevate your business? We craft modern, user-friendly
+                  websites tailored to drive your growth. Get in touch today!
                 </p>
                 <form className="mt-4">
                   <div className="row">
@@ -52,22 +52,25 @@ const ContactAreaFour = () => {
                     </div>
                     <div className="col-lg-6">
                       <div className="single-input-inner style-border">
-                        <input type="text" placeholder="Contact Here" />
+                        <input type="text" placeholder="Phone Number Here" />
                       </div>
                     </div>
                     <div className="col-lg-12">
                       <div className="single-input-inner style-border">
-                        <input type="text" placeholder="Email Here" />
+                        <input type="text" placeholder="Email ID Here" />
                       </div>
                     </div>
                     <div className="col-lg-12">
                       <div className="single-input-inner style-border">
-                        <textarea placeholder="Message" defaultValue={''} />
+                        <textarea
+                          placeholder="Message/Query Here"
+                          defaultValue={""}
+                        />
                       </div>
                     </div>
                     <div className="col-12">
-                      <Link className="btn btn-border-gray mt-0" href="#">
-                        Contact Us <FaPlus />
+                      <Link className="btn btn-border-base mt-0" href="#">
+                        Contact Us
                       </Link>
                     </div>
                   </div>

@@ -6,6 +6,7 @@ import {
   FaEnvelope,
   FaFacebookF,
   FaInstagram,
+  FaLinkedinIn,
   FaPhoneAlt,
   FaTwitter,
   FaYoutube,
@@ -25,23 +26,24 @@ const FooterOne = () => {
                 </div>
                 <div className="details">
                   <p>
-                    Melbourne is simply is dumiomy is text Lorem Ipsum is simply
+                    Empowering your digital presence with custom web solutions
+                    that drive success.
                   </p>
-                  <p className="mt-3">
+                  {/* <p className="mt-3">
                     <FaPhoneAlt /> (+91) 914 077 9652
-                  </p>
-                  {/* <p className="mt-2">
-                    <FaEnvelope /> (+91) 123 456 765
                   </p> */}
+                  <p className="mt-2">
+                    <FaEnvelope /> hello@carryup.in
+                  </p>
                   <ul className="social-media">
-                    <li>
+                    {/* <li>
                       <Link href="#">
                         <FaFacebookF />
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link href="#">
-                        <FaTwitter />
+                        <FaLinkedinIn />
                       </Link>
                     </li>
                     <li>

@@ -51,92 +51,73 @@ const TestimonialNine = () => {
         <div className="container pb-5">
           <div className="section-title">
             <h6 className="sub-title">TESTIMONIAL</h6>
-            <h2 className="title">Only goal to give you best</h2>
+            <h2 className="title">
+              What Our <span>Clients Say</span> About Us
+            </h2>
           </div>
           <div className="testimonial-slider-1 owl-carousel slider-control-round slider-control-dots slider-control-right-top">
             <Slider {...settings}>
               <div className="item">
                 <div className="single-testimonial-inner style-1 text-center">
-                  <h5>Devon Lane</h5>
-                  <p className="designation mb-3">Marketing Coordinator</p>
+                  <h5>Divya Darshan</h5>
+                  <p className="designation mb-3">Founder</p>
                   <div className="icon mb-2">
                     <img src="assets/img/icon/25.png" alt="img" />
                   </div>
                   <p>
-                    Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in a piece of classical Latin literature
-                    from 45 BC
+                    We’re really happy with the Website built for our streetwear
+                    brand. The team took the time to understand our vision. It’s
+                    been a smooth experience, and we’re seeing more engagement
+                    from our customers.
                   </p>
-                  <div className="ratting-inner mt-4">
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                  </div>
                 </div>
               </div>
               <div className="item">
                 <div className="single-testimonial-inner style-1 text-center">
-                  <h5>Devon Lane</h5>
-                  <p className="designation mb-3">Marketing Coordinator</p>
+                  <h5>Abhijit MD</h5>
+                  <p className="designation mb-3">Marketing Head</p>
                   <div className="icon mb-2">
                     <img src="assets/img/icon/25.png" alt="img" />
                   </div>
                   <p>
-                    Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in a piece of classical Latin literature
-                    from 45 BC
+                    Working with Carryup was an absolute pleasure. They built
+                    our e-commerce website with all the features we needed and
+                    more. The process was smooth, and the team was incredibly
+                    responsive. Highly recommend for any business looking to
+                    create a professional online presence.
                   </p>
-                  <div className="ratting-inner mt-4">
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                  </div>
                 </div>
               </div>
               <div className="item">
                 <div className="single-testimonial-inner style-1 text-center">
-                  <h5>Devon Lane</h5>
-                  <p className="designation mb-3">Marketing Coordinator</p>
+                  <h5>Rakshit</h5>
+                  <p className="designation mb-3">Founder</p>
                   <div className="icon mb-2">
                     <img src="assets/img/icon/25.png" alt="img" />
                   </div>
                   <p>
-                    Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in a piece of classical Latin literature
-                    from 45 BC
+                    We needed a corporate website that would reflect our brand’s
+                    professionalism, and Carryup delivered beyond expectations.
+                    Their attention to detail and commitment to excellence made
+                    all the difference. Our new site has significantly improved
+                    our client engagement.
                   </p>
-                  <div className="ratting-inner mt-4">
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                  </div>
                 </div>
               </div>
               <div className="item">
                 <div className="single-testimonial-inner style-1 text-center">
-                  <h5>Devon Lane</h5>
-                  <p className="designation mb-3">Marketing Coordinator</p>
+                  <h5>Aaron waliya</h5>
+                  <p className="designation mb-3">Founder & CEO</p>
                   <div className="icon mb-2">
                     <img src="assets/img/icon/25.png" alt="img" />
                   </div>
                   <p>
-                    Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in a piece of classical Latin literature
-                    from 45 BC
+                    From start to finish, Team exceeded our expectations in
+                    developing our educational platform. The website is not only
+                    user-friendly but also visually appealing. Their innovative
+                    approach brought our ideas to life in ways we hadn’t even
+                    imagined!
                   </p>
-                  <div className="ratting-inner mt-4">
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                  </div>
                 </div>
               </div>
             </Slider>
