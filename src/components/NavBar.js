@@ -41,30 +41,6 @@ const NavBar = () => {
 
   return (
     <>
-      {/* search popup start*/}
-      <div
-        className={searchShow ? "td-search-popup active" : "td-search-popup "}
-        id="td-search-popup"
-      >
-        <form action="/" className="search-form">
-          <div className="form-group">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Search....."
-            />
-          </div>
-          <button type="submit" className="submit-btn">
-            <FaSearch />
-          </button>
-        </form>
-      </div>
-      {/* search popup end*/}
-      <div
-        onClick={searchActive}
-        className={searchShow ? "body-overlay active" : "body-overlay"}
-        id="body-overlay"
-      ></div>
       {/* navbar start */}
       <nav className="navbar navbar-area navbar-area_1 navbar-expand-lg">
         <div className="container nav-container navbar-bg">
@@ -85,7 +61,7 @@ const NavBar = () => {
             </button>
           </div>
           <div className="logo">
-            <Link href="/index-1">
+            <Link href="/">
               <img src="assets/img/carryuplogo.png" alt="img" />
             </Link>
           </div>
@@ -123,7 +99,7 @@ const NavBar = () => {
               <span className="icon">
                 <img src="assets/img/icon/1.png" alt="img" />
               </span>
-              <span>Need help?</span>
+              <span>Discuss Your Project </span>
               <h5>9196779696</h5>
             </a>
           </div>

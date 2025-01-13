@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 import {
   FaArrowRight,
   FaCalendarAlt,
@@ -9,34 +9,14 @@ import {
   FaPhoneAlt,
   FaTwitter,
   FaYoutube,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 const FooterOne = () => {
   return (
     <>
       {/* ================== Footer One Start ==================*/}
       <footer className="footer-area bg-black bg-cover">
-        <div className="footer-subscribe">
-          <div className="container">
-            <div
-              className="footer-subscribe-inner bg-cover"
-              style={{ backgroundImage: 'url("./assets/img/bg/6.png")' }}
-            >
-              <div className="row">
-                <div className="col-lg-6">
-                  <h2 className="mb-lg-0 mb-3">Subscribe To Our Newsletter</h2>
-                </div>
-                <div className="col-lg-6 align-self-center text-lg-end">
-                  <input type="text" placeholder="Your e-mail address" />
-                  <Link className="btn btn-black border-radius-0" href="#">
-                    Submit now
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container">
+        <div className="container pt-5">
           <div className="row">
             <div className="col-lg-3 col-md-6">
               <div className="widget widget_about">
@@ -48,11 +28,11 @@ const FooterOne = () => {
                     Melbourne is simply is dumiomy is text Lorem Ipsum is simply
                   </p>
                   <p className="mt-3">
-                    <FaPhoneAlt /> (+888) 123 456 765
+                    <FaPhoneAlt /> (+91) 914 077 9652
                   </p>
-                  <p className="mt-2">
-                    <FaEnvelope /> (+888) 123 456 765
-                  </p>
+                  {/* <p className="mt-2">
+                    <FaEnvelope /> (+91) 123 456 765
+                  </p> */}
                   <ul className="social-media">
                     <li>
                       <Link href="#">
@@ -69,11 +49,6 @@ const FooterOne = () => {
                         <FaInstagram />
                       </Link>
                     </li>
-                    <li>
-                      <Link href="#">
-                        <FaYoutube />
-                      </Link>
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -84,32 +59,32 @@ const FooterOne = () => {
                 <ul>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Ui Design
+                      <FaArrowRight /> UI/UX Design
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Web design
+                      <FaArrowRight /> Web Design
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Digital marketing{' '}
+                      <FaArrowRight /> Ecommerce Website
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Video Editing
+                      <FaArrowRight /> Corporate Website
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Pc Repairs
+                      <FaArrowRight /> Animation Website
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Web Development
+                      <FaArrowRight /> Web Apps
                     </Link>
                   </li>
                 </ul>
@@ -117,36 +92,36 @@ const FooterOne = () => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="widget widget_nav_menu">
-                <h4 className="widget-title">Pay links</h4>
+                <h4 className="widget-title">Other Services</h4>
                 <ul>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Credit industrys
+                      <FaArrowRight /> Maintainance
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Reasearch sector
+                      <FaArrowRight /> Remote team
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Finance Sector{' '}
+                      <FaArrowRight /> IT Consultation{" "}
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Credit industrys
+                      <FaArrowRight /> Project Modification
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Reasearch sector
+                      <FaArrowRight /> IT Support
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Finance Sector
+                      <FaArrowRight /> Tech Support
                     </Link>
                   </li>
                 </ul>
@@ -154,21 +129,21 @@ const FooterOne = () => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="widget widget-recent-post">
-                <h4 className="widget-title">Contact us</h4>
+                <h4 className="widget-title">Case Study</h4>
                 <ul>
                   <li>
                     <div className="media">
-                      <div className="media-left">
+                      {/* <div className="media-left">
                         <img src="assets/img/widget/1.png" alt="blog" />
-                      </div>
+                      </div> */}
                       <div className="media-body align-self-center">
                         <div className="post-info mb-2">
                           <FaCalendarAlt />
-                          <span>january 11, 2023</span>
+                          <span>january 01, 2025</span>
                         </div>
                         <h6 className="title mb-0">
                           <Link href="/blog-details">
-                            Social Media For Promote Business.
+                            Ecommerce Future in India.
                           </Link>
                         </h6>
                       </div>
@@ -176,18 +151,16 @@ const FooterOne = () => {
                   </li>
                   <li>
                     <div className="media">
-                      <div className="media-left">
+                      {/* <div className="media-left">
                         <img src="assets/img/widget/2.png" alt="blog" />
-                      </div>
+                      </div> */}
                       <div className="media-body align-self-center">
                         <div className="post-info mb-2">
                           <FaCalendarAlt />
-                          <span>january 11, 2023</span>
+                          <span>january 11, 2025</span>
                         </div>
                         <h6 className="title mb-0">
-                          <Link href="/blog-details">
-                            Marketing For Base market watch
-                          </Link>
+                          <Link href="/blog-details">AI Websites Reality</Link>
                         </h6>
                       </div>
                     </div>
@@ -201,10 +174,13 @@ const FooterOne = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-6 align-self-center">
-                <p>© AglieTech 2024 | All Rights Reserved</p>
+                <p>
+                  © Carryup Innovations Private Limited 2025 | All Rights
+                  Reserved
+                </p>
               </div>
               <div className="col-md-6 text-lg-end">
-                <Link href="#">Trams &amp; Condition</Link>
+                <Link href="#">Terms &amp; Condition</Link>
                 <Link href="#">Privacy Policy</Link>
                 <Link href="#">Contact Us</Link>
               </div>

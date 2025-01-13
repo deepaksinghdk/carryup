@@ -9,7 +9,7 @@ const WorkProcessOne = () => {
           <div className="section-title text-center">
             <h6 className="sub-title">OUR SIMPLE PROCESS</h6>
             <h2 className="title">
-              World <span>Best Step</span> Our It Process
+              How We Bring <span>Your Vision</span> to Life
             </h2>
           </div>
           <div className="row">
@@ -19,11 +19,10 @@ const WorkProcessOne = () => {
                   <img src="assets/img/icon/9.svg" alt="img" />
                 </div>
                 <div className="details">
-                  <p className="process-count">Work 01</p>
-                  <h5 className="mb-3">Software Research</h5>
+                  <p className="process-count">01</p>
+                  <h5 className="mb-3">Sitemap & Wireframe</h5>
                   <p className="content">
-                    Research ipsum dolor sit consec tetur sed diam in the
-                    aliquam tempor
+                    Defining the structure and UI/UX flow of your site.
                   </p>
                 </div>
               </div>
@@ -34,11 +33,10 @@ const WorkProcessOne = () => {
                   <img src="assets/img/icon/10.svg" alt="img" />
                 </div>
                 <div className="details">
-                  <p className="process-count">Work 02</p>
-                  <h5 className="mb-3">Create Programs</h5>
+                  <p className="process-count">02</p>
+                  <h5 className="mb-3">Design</h5>
                   <p className="content">
-                    Create ipsum dolor sit consec tetur sed diam in the aliquam
-                    tempor
+                    Crafting visually appealing and user-friendly layouts.
                   </p>
                 </div>
               </div>
@@ -49,11 +47,10 @@ const WorkProcessOne = () => {
                   <img src="assets/img/icon/11.svg" alt="img" />
                 </div>
                 <div className="details">
-                  <p className="process-count">Work 03</p>
-                  <h5 className="mb-3">Develope Software</h5>
+                  <p className="process-count">03</p>
+                  <h5 className="mb-3">Development</h5>
                   <p className="content">
-                    Develope ipsum dolor sit consec tetur sed diam in the
-                    aliquam tempor
+                    Turning designs into functional, high-performance websites.
                   </p>
                 </div>
               </div>
@@ -64,11 +61,10 @@ const WorkProcessOne = () => {
                   <img src="assets/img/icon/12.svg" alt="img" />
                 </div>
                 <div className="details">
-                  <p className="process-count">Work 04</p>
-                  <h5 className="mb-3">Shop software</h5>
+                  <p className="process-count">04</p>
+                  <h5 className="mb-3">Maintenance</h5>
                   <p className="content">
-                    Shop ipsum dolor sit consec tetur Malesuada sed diam in the
-                    aliquam tempor
+                    Ensuring updates, Bug fixes, and optimal performance.
                   </p>
                 </div>
               </div>

@@ -13,7 +13,7 @@ const ServiceAreaNine = () => {
               <div className="section-title">
                 <h6 className="sub-title">Our Feature Service</h6>
                 <h2 className="title">
-                  We Specialize In The <br /> Features Services
+                  We <span>Specialize</span> In The <br /> Features Services
                 </h2>
               </div>
             </div>
@@ -26,12 +26,14 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link href="/service-details">CloudCRM</Link>
+                    <Link href="/service-details">E-commerce</Link>
                   </h5>
-                  <p>SaaS stands for Software as a Service. It is a software</p>
-                  <Link className="read-more-text" href="/blog-details">
+                  <p>
+                    Online stores with Shopify, WooCommerce, or custom tech.
+                  </p>
+                  {/* <Link className="read-more-text" href="/blog-details">
                     Touch More <FaPlus />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -42,12 +44,14 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link href="/service-details">SmartBiz</Link>
+                    <Link href="/service-details">Corporate</Link>
                   </h5>
-                  <p>SaaS stands for Software as a Service. It is a software</p>
-                  <Link className="read-more-text" href="/blog-details">
+                  <p>
+                    Responsive sites with HTML, Bootstrap, and robust backends.
+                  </p>
+                  {/* <Link className="read-more-text" href="/blog-details">
                     Touch More <FaPlus />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -58,12 +62,12 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link href="/service-details">AppGenius</Link>
+                    <Link href="/service-details">Web Apps</Link>
                   </h5>
-                  <p>SaaS stands for Software as a Service. It is a software</p>
-                  <Link className="read-more-text" href="/blog-details">
+                  <p>Interactive apps using Angular, React, and Express.js.</p>
+                  {/* <Link className="read-more-text" href="/blog-details">
                     Touch More <FaPlus />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -76,12 +80,12 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link href="/service-details">Content Marketing</Link>
+                    <Link href="/service-details">Portfolio & Blogs</Link>
                   </h5>
-                  <p>SaaS stands for Software as a Service. It is a software</p>
-                  <Link className="read-more-text" href="/blog-details">
+                  <p>Sleek designs with WordPress or Gatsby, SEO-ready.</p>
+                  {/* <Link className="read-more-text" href="/blog-details">
                     Touch More <FaPlus />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -92,12 +96,12 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link href="/service-details">Mobile App Development</Link>
+                    <Link href="/service-details">Educational</Link>
                   </h5>
-                  <p>SaaS stands for Software as a Service. It is a software</p>
-                  <Link className="read-more-text" href="/blog-details">
+                  <p>Scalable e-learning with Moodle or MERN stack.</p>
+                  {/* <Link className="read-more-text" href="/blog-details">
                     Touch More <FaPlus />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -108,12 +112,12 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link href="/service-details">Design Solutions</Link>
+                    <Link href="/service-details">Animated</Link>
                   </h5>
                   <p>SaaS stands for Software as a Service. It is a software</p>
-                  <Link className="read-more-text" href="/blog-details">
+                  {/* <Link className="read-more-text" href="/blog-details">
                     Touch More <FaPlus />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

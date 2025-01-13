@@ -1,15 +1,14 @@
 import AboutAreaTwo from "@/components/AboutAreaTwo";
 import BannerThree from "@/components/BannerThree";
 import BrandAreaOne from "@/components/BrandAreaOne";
-import CareerAreaOne from "@/components/CareerAreaOne";
 import ContactAreaFour from "@/components/ContactAreaFour";
 import CounterAreaFour from "@/components/CounterAreaFour";
 import FaqAreaTwo from "@/components/FaqAreaTwo";
-import FooterThree from "@/components/FooterThree";
+import FooterOne from "@/components/FooterOne";
 import Navbar from "@/components/NavBar";
 import ProjectAreaOne from "@/components/ProjectAreaOne";
 import ServiceAreaNine from "@/components/ServiceAreaNine";
-import TestimonialThree from "@/components/TestimonialThree";
+import TestimonialNine from "@/components/TestimonialNine";
 import WorkProcessOne from "@/components/WorkProcessOne";
 
 export const metadata = {
@@ -43,7 +42,7 @@ const page = () => {
       <FaqAreaTwo />
 
       {/* Career Area One */}
-      <CareerAreaOne />
+      {/* <CareerAreaOne /> */}
 
       {/* Project Area One */}
       <ProjectAreaOne />
@@ -51,14 +50,14 @@ const page = () => {
       {/* Contact Area Four */}
       <ContactAreaFour />
 
-      {/* Testimonial Three */}
-      <TestimonialThree />
+      {/* Testimonial Nine */}
+      <TestimonialNine />
 
       {/* Counter Area Four */}
       <CounterAreaFour />
 
       {/* Footer Three */}
-      <FooterThree />
+      <FooterOne />
     </>
   );
 };

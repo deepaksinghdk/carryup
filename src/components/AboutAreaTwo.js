@@ -32,7 +32,8 @@ const AboutAreaTwo = () => {
               <div className="section-title mb-0">
                 <h6 className="sub-title">ABOUT US</h6>
                 <h2 className="title">
-                  Empowering Businesses with Cutting-Edge Technology
+                  Empowering <span>Businesses</span> with Cutting-Edge
+                  Technology
                 </h2>
                 <p className="content mb-4">
                   At Carryup, we craft innovative web and mobile app solutions

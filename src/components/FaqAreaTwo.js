@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const FaqAreaTwo = () => {
   return (
@@ -47,9 +47,58 @@ const FaqAreaTwo = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div className="accordion-body">
-                      Many desktop publishing packages and web page editors now
-                      use Lorem Ipsum as their default model text, search for
-                      'lorem ipsum' will uncover
+                      We provide web design, development, e-commerce solutions,
+                      and custom web applications.
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingTwo">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      How do you ensure the quality of your projects?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div className="accordion-body">
+                      We follow a structured process with rigorous testing to
+                      guarantee top quality.
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingTwo">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      What is your approach to client communication?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div className="accordion-body">
+                      We maintain clear, regular communication, keeping clients
+                      updated at every stage.
                     </div>
                   </div>
                 </div>
@@ -73,9 +122,8 @@ const FaqAreaTwo = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div className="accordion-body">
-                      Many desktop publishing packages and web page editors now
-                      use Lorem Ipsum as their default model text, search for
-                      'lorem ipsum' will uncover
+                      Our young, skilled team delivers innovative and
+                      high-quality web solutions.
                     </div>
                   </div>
                 </div>
@@ -89,7 +137,7 @@ const FaqAreaTwo = () => {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      Can you provide of past projects?
+                      What technologies do you specialize in?
                     </button>
                   </h2>
                   <div
@@ -99,9 +147,9 @@ const FaqAreaTwo = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div className="accordion-body">
-                      Many desktop publishing packages and web page editors now
-                      use Lorem Ipsum as their default model text, search for
-                      'lorem ipsum' will uncover
+                      We specialize in HTML, CSS, JavaScript (React, Angular),
+                      PHP, Node.js, CMS platforms, and all trending tech stacks
+                      tailored to client requirements.
                     </div>
                   </div>
                 </div>
