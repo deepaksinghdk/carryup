@@ -22,7 +22,7 @@ const ServiceAreaNine = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-service-inner text-center">
                 <div className="thumb">
-                  <img src="assets/img/home-11/service-1.svg" alt="img" />
+                  <img src="assets/img/home-11/service-1.png" alt="img" />
                 </div>
                 <div className="details">
                   <h5>
@@ -58,7 +58,7 @@ const ServiceAreaNine = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-service-inner text-center">
                 <div className="thumb">
-                  <img src="assets/img/home-11/service-3.svg" alt="img" />
+                  <img src="assets/img/home-11/service-3.png" alt="img" />
                 </div>
                 <div className="details">
                   <h5>
