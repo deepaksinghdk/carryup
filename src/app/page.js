@@ -12,9 +12,9 @@ import TestimonialNine from "@/components/TestimonialNine";
 import WorkProcessOne from "@/components/WorkProcessOne";
 
 export const metadata = {
-  title: "Carryup - AI Backed Solutions & Technology",
+  title: "Carryup - Innovative AI-Driven Solutions",
   description:
-    "Carryup provide you to build digital, it services, it solutions, network solution, startup, technology, technology company, technology service.",
+    "Empowering enterprises for a digital future with AI-Driven transformations. Turning possibilities into reality with our digital expertise.",
 };
 
 const page = () => {
