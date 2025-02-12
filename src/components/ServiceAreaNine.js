@@ -72,56 +72,6 @@ const ServiceAreaNine = () => {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div className="single-service-inner text-center">
-                <div className="thumb">
-                  <img src="assets/img/home-11/service-4.png" alt="img" />
-                </div>
-                <div className="details">
-                  <h5>
-                    <Link href="/service-details">Portfolio & Blogs</Link>
-                  </h5>
-                  <p>Sleek designs with WordPress or Gatsby, SEO-ready.</p>
-                  {/* <Link className="read-more-text" href="/blog-details">
-                    Touch More <FaPlus />
-                  </Link> */}
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="single-service-inner text-center">
-                <div className="thumb">
-                  <img src="assets/img/home-11/service-5.png" alt="img" />
-                </div>
-                <div className="details">
-                  <h5>
-                    <Link href="/service-details">Educational</Link>
-                  </h5>
-                  <p>Scalable e-learning with Moodle or MERN stack.</p>
-                  {/* <Link className="read-more-text" href="/blog-details">
-                    Touch More <FaPlus />
-                  </Link> */}
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="single-service-inner text-center">
-                <div className="thumb">
-                  <img src="assets/img/home-11/service-6.png" alt="img" />
-                </div>
-                <div className="details">
-                  <h5>
-                    <Link href="/service-details">Animated</Link>
-                  </h5>
-                  <p>SaaS stands for Software as a Service. It is a software</p>
-                  {/* <Link className="read-more-text" href="/blog-details">
-                    Touch More <FaPlus />
-                  </Link> */}
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       {/* end service area */}

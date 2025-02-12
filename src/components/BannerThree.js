@@ -22,7 +22,7 @@ const BannerThree = () => {
                   data-aos-delay="100"
                   data-aos-duration="1500"
                 >
-                  Innovative AI-Driven Solutions
+                  Get Your Project Live in Just 30 Days!
                 </h6>
                 <h2
                   className="title"
@@ -30,7 +30,7 @@ const BannerThree = () => {
                   data-aos-delay="200"
                   data-aos-duration="1500"
                 >
-                  Crafting Innovative <span>Web</span> Solutions
+                  Innovative Web, <span> Built </span>for Growth.
                 </h2>
                 <p
                   className="content pe-xl-5"
@@ -38,8 +38,9 @@ const BannerThree = () => {
                   data-aos-delay="250"
                   data-aos-duration="1500"
                 >
-                  Transforming ideas into stunning, responsive, and
-                  user-friendly websites that drive growth and engagement.
+                  We craft high-performance, visually stunning, and
+                  user-friendly websites designed to convert. On time, every
+                  time.
                 </p>
                 <Link
                   className="btn btn-border-base "
@@ -48,11 +49,11 @@ const BannerThree = () => {
                   data-aos-duration="1500"
                   href="/contact"
                 >
-                  Contact Us
+                  View Our Work
                 </Link>
               </div>
             </div>
-            <div className="col-lg-6 col-md-10">
+            <div className="col-lg-6 col-md-10 banner-main-img-wrapper">
               <div
                 className="banner-thumb-3"
                 data-aos="fade-left"
@@ -62,7 +63,7 @@ const BannerThree = () => {
                 <div className="main-img-wrap">
                   <img
                     className="main-img"
-                    src="assets/img/banner-3/1.png"
+                    src="assets/img/banner-3/mb1.png"
                     alt="img"
                   />
                 </div>

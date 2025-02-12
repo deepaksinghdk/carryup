@@ -27,9 +27,6 @@ const page = () => {
       {/* ServiceAreaGroupFive */}
       <ServiceAreaGroupFive />
 
-      {/* PricingAreaTwo */}
-      <PricingAreaTwo />
-
       {/* Footer One */}
       <FooterOne />
 

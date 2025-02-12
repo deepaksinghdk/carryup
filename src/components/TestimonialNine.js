@@ -43,16 +43,13 @@ const TestimonialNine = () => {
   };
   return (
     <>
-      {/* testimonial-area start */}
-      <div
-        className="testimonial-area testimonial-area_9 pd-top-90"
-        style={{ backgroundImage: 'url("./assets/img/bg/11.png")' }}
-      >
+      {/* Testimonial Area Start */}
+      <div className="testimonial-area testimonial-area_9 pd-top-90">
         <div className="container pb-5">
           <div className="section-title">
             <h6 className="sub-title">TESTIMONIAL</h6>
             <h2 className="title">
-              What Our <span>Clients Say</span> About Us
+              What Our <span>Clients Say</span>
             </h2>
           </div>
           <div className="testimonial-slider-1 owl-carousel slider-control-round slider-control-dots slider-control-right-top">
@@ -62,13 +59,11 @@ const TestimonialNine = () => {
                   <h5>Divya Darshan</h5>
                   <p className="designation mb-3">Founder</p>
                   <div className="icon mb-2">
-                    <img src="assets/img/icon/25.png" alt="img" />
+                    <img src="assets/img/icon/25.png" alt="testimonial-icon" />
                   </div>
                   <p>
-                    We’re really happy with the Website built for our streetwear
-                    brand. The team took the time to understand our vision. It’s
-                    been a smooth experience, and we’re seeing more engagement
-                    from our customers.
+                    Carryup built a stunning website for our brand, perfectly
+                    capturing our vision. Smooth process and great results!
                   </p>
                 </div>
               </div>
@@ -77,14 +72,11 @@ const TestimonialNine = () => {
                   <h5>Abhijit MD</h5>
                   <p className="designation mb-3">Marketing Head</p>
                   <div className="icon mb-2">
-                    <img src="assets/img/icon/25.png" alt="img" />
+                    <img src="assets/img/icon/25.png" alt="testimonial-icon" />
                   </div>
                   <p>
-                    Working with Carryup was an absolute pleasure. They built
-                    our e-commerce website with all the features we needed and
-                    more. The process was smooth, and the team was incredibly
-                    responsive. Highly recommend for any business looking to
-                    create a professional online presence.
+                    Working with Carryup was seamless. They delivered a
+                    feature-rich e-commerce site that exceeded expectations.
                   </p>
                 </div>
               </div>
@@ -93,30 +85,25 @@ const TestimonialNine = () => {
                   <h5>Rakshit</h5>
                   <p className="designation mb-3">Founder</p>
                   <div className="icon mb-2">
-                    <img src="assets/img/icon/25.png" alt="img" />
+                    <img src="assets/img/icon/25.png" alt="testimonial-icon" />
                   </div>
                   <p>
-                    We needed a corporate website that would reflect our brand’s
-                    professionalism, and Carryup delivered beyond expectations.
-                    Their attention to detail and commitment to excellence made
-                    all the difference. Our new site has significantly improved
-                    our client engagement.
+                    Carryup created a professional corporate website that
+                    boosted client engagement. Their attention to detail was
+                    amazing.
                   </p>
                 </div>
               </div>
               <div className="item">
                 <div className="single-testimonial-inner style-1 text-center">
-                  <h5>Aaron waliya</h5>
+                  <h5>Aaron Waliya</h5>
                   <p className="designation mb-3">Founder & CEO</p>
                   <div className="icon mb-2">
-                    <img src="assets/img/icon/25.png" alt="img" />
+                    <img src="assets/img/icon/25.png" alt="testimonial-icon" />
                   </div>
                   <p>
-                    From start to finish, Team exceeded our expectations in
-                    developing our educational platform. The website is not only
-                    user-friendly but also visually appealing. Their innovative
-                    approach brought our ideas to life in ways we hadn’t even
-                    imagined!
+                    The team built an engaging educational platform that was
+                    beyond our expectations. Creative and innovative work!
                   </p>
                 </div>
               </div>
@@ -124,7 +111,7 @@ const TestimonialNine = () => {
           </div>
         </div>
       </div>
-      {/* testimonial-area end */}
+      {/* Testimonial Area End */}
     </>
   );
 };

@@ -74,7 +74,6 @@
 .navbar-area {
   position: relative;
   z-index: 99;
-  margin-top: 20px;
   .nav-container {
     transition: all 0.4s;
     position: relative;
@@ -100,7 +99,7 @@
         color: #fff;
         img {
           height: auto;
-          max-width: 150px;
+          max-width: 170px;
         }
       }
     }
@@ -738,7 +737,6 @@
 
         .navbar-nav {
           display: block;
-          margin-top: 20px;
           li {
             a {
               display: block;
@@ -1132,4 +1130,8 @@
   .responsive-mobile-menu .navbar-toggler {
     left: calc(100% - 95px);
   }
+}
+
+.navbar-area_2 {
+  margin-top: 0px !important;
 }

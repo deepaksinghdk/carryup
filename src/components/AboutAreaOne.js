@@ -4,87 +4,39 @@ const AboutAreaOne = () => {
   return (
     <>
       {/* ================== AboutAreaOne start  ==================*/}
-      <div className="about-area pd-top-120">
+      <div className="pd-top-60 text-center">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
-              <div
-                className="about-thumb-inner pe-xl-5 me-xl-5 "
-                data-aos="fade-right"
-                data-aos-delay="100"
-                data-aos-duration="1500"
-              >
-                <img
-                  className="animate-img-1 top_image_bounce"
-                  src="assets/img/about/2.png"
-                  alt="img"
-                />
-                <img
-                  className="animate-img-2 left_image_bounce"
-                  src="assets/img/banner/5.svg"
-                  alt="img"
-                />
-                {/* <img
-                  className="animate-img-3 top_image_bounce"
-                  src="assets/img/banner/5.svg"
-                  alt="img"
-                /> */}
-                <img
-                  className="main-img"
-                  src="assets/img/about/1.png"
-                  alt="img"
-                />
-              </div>
-            </div>
-            <div
-              className="col-lg-6 "
-              data-aos="fade-left"
-              data-aos-delay="100"
-              data-aos-duration="1500"
-            >
-              <div className="section-title mt-5 mt-lg-0">
-                <h6 className="sub-title">ABOUT US</h6>
-                <h2 className="title">
-                  It Is A Critical Component Of <span>Modern</span> Businesses
-                </h2>
-                <p className="content mb-4 mb-xl-5">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry Loreaim Ipsum has been the industry's
-                  standard dummy
-                </p>
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="single-about-inner">
-                      <div className="thumb mb-3">
-                        <img src="assets/img/icon/2.png" alt="img" />
-                      </div>
-                      <div className="details">
-                        <h5>Our Ambition</h5>
-                        <p>
-                          Lorem is Ipsum is simply is design iomyi is text Lorem
-                          Ipsum is simply is our busi designer is our country.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="single-about-inner">
-                      <div className="thumb mb-3">
-                        <img src="assets/img/icon/3.png" alt="img" />
-                      </div>
-                      <div className="details">
-                        <h5>Our Ambition</h5>
-                        <p>
-                          Lorem is Ipsum is simply is design iomyi is text Lorem
-                          Ipsum is simply is our busi designer is our country.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <h2 className="pd-bottom-60">About</h2>
+          We are Carryup Innovations, a dynamic and forward-thinking web
+          development and design company dedicated to crafting exceptional
+          digital experiences. As a team of passionate and driven young
+          professionals, we bring together creativity, technical expertise, and
+          an unwavering commitment to deliver quality solutions on time. <br />{" "}
+          <br />
+          Our name, “Carryup,” signifies progress and innovation. It reflects
+          our mission to elevate businesses by building impactful websites and
+          digital solutions that blend functionality, aesthetics, and
+          user-centric designs.
+          <br /> <br />
+          At Carryup Innovations, we believe in collaboration and the power of
+          diverse perspectives. Guided by experienced mentors and fueled by the
+          enthusiasm of our versatile team, we take pride in turning ideas into
+          reality. Whether it's developing scalable web applications, designing
+          captivating user interfaces, or creating conversion-driven websites,
+          our goal is to serve our clients with excellence.
+          <br /> <br />
+          We are more than a web development and design company — we are
+          partners in growth. With a focus on timely delivery and unmatched
+          quality, we strive to empower businesses, enhance their digital
+          presence, and help them succeed in an ever-evolving online landscape.
+          <br /> <br />
+          Since our inception, we have worked with clients across industries,
+          crafting solutions that are not just functional but also
+          forward-looking. As we continue to grow, our commitment to innovation
+          and customer satisfaction remains at the heart of everything we do.
+          Together, let’s create a future where technology and creativity work
+          hand-in-hand to achieve extraordinary results.
+          <br /> <br />
         </div>
       </div>
       {/* ================== AboutAreaOne End  ==================*/}

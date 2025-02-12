@@ -1,34 +1,13 @@
 let serviceList = [
   {
-    title: "Mobile App Development",
-    des: "Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi Lorem is Ipsum is",
+    title: "Web Development",
+    des: "We offer professional web development services to create fast, secure, and scalable websites tailored to your business needs. Our team specializes in building responsive and user-friendly websites that boost engagement and drive conversions.",
     img: "assets/img/service-icon/1.png",
   },
   {
-    title: "Content Marketing",
-    des: "Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi Lorem is Ipsum is",
+    title: "Web Design",
+    des: "Our web design services focus on crafting visually stunning and intuitive designs that enhance user experience. From mobile-friendly layouts to modern aesthetics, we deliver designs that make your brand stand out online.",
     img: "assets/img/service-icon/2.png",
-  },
-  {
-    title: "E-commerce Solutions",
-    des: "Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi Lorem is Ipsum is",
-    img: "assets/img/service-icon/3.png",
-  },
-  {
-    title: "Content Marketing",
-    des: "Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi Lorem is Ipsum is",
-    img: "assets/img/service-icon/2.png",
-  },
-  {
-    title: "Mobile App Development",
-    des: "Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi Lorem is Ipsum is",
-    img: "assets/img/service-icon/1.png",
-  },
-
-  {
-    title: "E-commerce Solutions",
-    des: "Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi Lorem is Ipsum is",
-    img: "assets/img/service-icon/3.png",
   },
 ];
 

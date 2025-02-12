@@ -4,14 +4,14 @@ import { FaPlus } from "react-icons/fa";
 
 const ProjectAreaOne = () => {
   return (
-    <div className="project-section project-section_1">
+    <div className="project-section project-section_1 pt-5">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="section-title text-center">
-              <h6 className="sub-title">Highlights</h6>
+              <h6 className="sub-title">Key Highlights</h6>
               <h2 className="title">
-                Latest <span>Project</span> Are Here
+                Explore Our <span>Featured Projects</span>
               </h2>
             </div>
           </div>
@@ -26,33 +26,63 @@ const ProjectAreaOne = () => {
           >
             <div className="row">
               <div className="col-md-4">
-                <div className="single-project-inner">
-                  <img src="assets/img/gallery/1.png" alt="img" />
-                  <div className="details">
+                <div>
+                  <img src="assets/img/gallery/project1.png" alt="img" />
+                  {/* <div className="details">
                     <Link className="read-more-text" href="#">
                       VIEW PROJECT
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="single-project-inner">
-                  <img src="assets/img/gallery/2.png" alt="img" />
-                  <div className="details">
+                <div>
+                  <img src="assets/img/gallery/project2.png" alt="img" />
+                  {/* <div className="details">
                     <Link className="read-more-text" href="#">
                       VIEW PROJECT
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="single-project-inner">
-                  <img src="assets/img/gallery/3.png" alt="img" />
-                  <div className="details">
+                <div>
+                  <img src="assets/img/gallery/project3.png" alt="img" />
+                  {/* <div className="details">
                     <Link className="read-more-text" href="#">
                       VIEW PROJECT
                     </Link>
-                  </div>
+                  </div> */}
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div>
+                  <img src="assets/img/gallery/project4.png" alt="img" />
+                  {/* <div className="details">
+                    <Link className="read-more-text" href="#">
+                      VIEW PROJECT
+                    </Link>
+                  </div> */}
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div>
+                  <img src="assets/img/gallery/project5.png" alt="img" />
+                  {/* <div className="details">
+                    <Link className="read-more-text" href="#">
+                      VIEW PROJECT
+                    </Link>
+                  </div> */}
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div>
+                  <img src="assets/img/gallery/project6.png" alt="img" />
+                  {/* <div className="details">
+                    <Link className="read-more-text" href="#">
+                      VIEW PROJECT
+                    </Link>
+                  </div> */}
                 </div>
               </div>
             </div>
