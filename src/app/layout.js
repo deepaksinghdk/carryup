@@ -4,9 +4,9 @@ import "./font.css";
 import "./globals.scss";
 
 export const metadata = {
-  title: "Service || AglieTech - IT Solutions & Technology NEXT JS Template",
+  title: "Service || Carryup - Expert Web Design & Development",
   description:
-    "Agiletech provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
+    "Crafting high-performance websites that drive results. From custom design to seamless development, Carryup transforms your online presence.",
 };
 
 export default function RootLayout({ children }) {
