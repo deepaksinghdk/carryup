@@ -84,33 +84,32 @@ const NavbarTwo = () => {
           >
             <ul className="navbar-nav menu-open text-lg-end">
               <li className="menu-item-has-children">
-                <Link href="/">Home</Link>
-              </li>
-              <li className="menu-item-has-children">
-                <Link href="#">Service</Link>
+                <Link href="#">What we do</Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link href="/service-5">Web Development</Link>
+                    <Link href="#">Web Development</Link>
                   </li>
                   <li>
-                    <Link href="/service-5">Web Design</Link>
+                    <Link href="#">Web Design</Link>
                   </li>
                 </ul>
               </li>
               <li className="menu-item-has-children">
-                <Link href="#">Company</Link>
+                <Link href="#">Who we are</Link>
                 <ul className="sub-menu">
                   <li>
                     <Link href="/about">About</Link>
                   </li>
                   <li>
-                    <Link href="/team">Career</Link>
+                    <Link href="#">Career</Link>
                   </li>
                 </ul>
               </li>
-
               <li>
-                <Link href="/contact">Contact Us</Link>
+                <Link href="#">Case Study</Link>
+              </li>
+              <li>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </div>

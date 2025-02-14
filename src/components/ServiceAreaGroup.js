@@ -36,7 +36,7 @@ const ServiceAreaGroup = () => {
                       className="btn btn-border-base"
                       href="/service-details"
                     >
-                      Know More
+                      Discover How
                     </Link>
                   </div>
                 </div>
