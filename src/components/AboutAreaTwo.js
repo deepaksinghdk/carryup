@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 
 const AboutAreaTwo = () => {
@@ -12,7 +11,11 @@ const AboutAreaTwo = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img className="main-img" src="/assets/img/Banner2.png" alt="img" />
+            <img
+              className="main-img"
+              src="/assets/img/webCTAbnr.png"
+              alt="img"
+            />
           </a>
         </div>
       </div>
