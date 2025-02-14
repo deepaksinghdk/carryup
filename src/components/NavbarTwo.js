@@ -87,10 +87,10 @@ const NavbarTwo = () => {
                 <Link href="#">What we do</Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link href="#">Web Development</Link>
+                    <Link href="#">Web Design</Link>
                   </li>
                   <li>
-                    <Link href="#">Web Design</Link>
+                    <Link href="#">Web Development</Link>
                   </li>
                 </ul>
               </li>

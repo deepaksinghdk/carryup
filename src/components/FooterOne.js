@@ -60,12 +60,12 @@ const FooterOne = () => {
                 <h4 className="widget-title">Our Service</h4>
                 <ul>
                   <li>
-                    <Link href="/service">
+                    <Link href="#">
                       <FaArrowRight /> Web Development
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service">
+                    <Link href="#">
                       <FaArrowRight /> Web Design
                     </Link>
                   </li>

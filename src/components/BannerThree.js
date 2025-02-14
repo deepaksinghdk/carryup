@@ -38,9 +38,8 @@ const BannerThree = () => {
                   data-aos-delay="250"
                   data-aos-duration="1500"
                 >
-                  We craft high-performance, visually stunning, and
-                  user-friendly websites designed to convert. On time, every
-                  time.
+                  We design stunning, high-performance, and user-friendly
+                  websites that deliver results on time, every time.
                 </p>
                 <Link
                   className="btn btn-border-base "
