@@ -12,8 +12,14 @@ const AboutAreaTwo = () => {
             rel="noopener noreferrer"
           >
             <img
-              className="main-img"
+              className="main-img CtaBnrWeb"
               src="/assets/img/webCTAbnr.png"
+              alt="img"
+            />
+
+            <img
+              className="main-img CtaBnrMob"
+              src="/assets/img/mobCTAbnr.png"
               alt="img"
             />
           </a>

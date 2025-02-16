@@ -4,7 +4,7 @@ import { FaPlus } from "react-icons/fa";
 
 const ProjectAreaOne = () => {
   return (
-    <div className="project-section project-section_1 pt-5">
+    <div className="project-section pd-top-30 project-section_1 pt-5">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">

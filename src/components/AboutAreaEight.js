@@ -11,7 +11,16 @@ const AboutAreaEight = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img className="main-img" src="/assets/img/Banner1.png" alt="img" />
+            <img
+              className="main-img CtaBnrWeb"
+              src="/assets/img/Banner1.png"
+              alt="img"
+            />
+            <img
+              className="main-img CtaBnrMob"
+              src="/assets/img/banner1mob.png"
+              alt="img"
+            />
           </a>
         </div>
       </div>

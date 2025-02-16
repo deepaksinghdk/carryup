@@ -198,6 +198,19 @@
   }
 }
 
+.CtaBnrWeb{
+  @media (max-width: 768px) { 
+    display: none; 
+  }
+}
+
+.CtaBnrMob{
+   display: none;
+  @media (max-width: 768px) { 
+    display: block; 
+  }
+}
+
 .banner-main-img-wrapper{
   display: flex;
     justify-content: center;
@@ -205,6 +218,6 @@
 }
 
 .row {
-  --bs-gutter-x: 3rem;
-  --bs-gutter-y: 3rem;
+  --bs-gutter-x: 1rem;
+  --bs-gutter-y: 1rem;
 }
