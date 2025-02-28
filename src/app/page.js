@@ -59,7 +59,7 @@ const page = () => {
       </Head>
 
       {/* Navigation Bar */}
-      <NavbarTwo />
+   
 
       {/* Banner Three */}
       <BannerThree />
@@ -90,7 +90,7 @@ const page = () => {
       {/* <AboutAreaThree /> */}
 
       {/* Footer Three */}
-      <FooterOne />
+     
     </>
   );
 };

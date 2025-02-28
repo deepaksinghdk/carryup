@@ -101,12 +101,31 @@ const NavbarTwo = () => {
                     <Link href="/about">About</Link>
                   </li>
                   <li>
-                    <Link href="#">Career</Link>
+                    <Link href="/career">Career</Link>
                   </li>
                 </ul>
               </li>
-              <li>
-                <Link href="#">Case Study</Link>
+              <li className="menu-item-has-children">
+                <Link href="#">Knowledge Hub</Link>
+                <ul className="sub-menu">
+                  <li>
+                    <Link href="/case-study">Case Study</Link>
+                  </li>
+                  <li>
+                    <Link href="/blog-2">Blogs</Link>
+                  </li>
+                </ul>
+              </li>
+              <li className="menu-item-has-children">
+                <Link href="#">Solutions</Link>
+                <ul className="sub-menu ">
+                  <li   >
+                    <Link  className="d-flex justify-content-between  " href="#"><div>ToolUp</div>  <div  style={{fontSize:"0.6rem !important;"}} > [Shopify Apps]</div> </Link>
+                  </li>
+                  <li   >
+                    <Link  className="d-flex justify-content-between  " href="#"><div>GridAI</div>  <div  style={{fontSize:"0.6rem !important;"}} > [Coming Soon  ]</div> </Link>
+                  </li>
+                </ul>
               </li>
               <li>
                 <Link href="/contact">Contact</Link>

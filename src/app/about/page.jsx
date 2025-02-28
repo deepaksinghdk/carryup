@@ -1,14 +1,6 @@
 import AboutAreaOne from "@/components/AboutAreaOne";
 import Breadcrumb from "@/components/Breadcrumb";
-import ContactAreaOne from "@/components/ContactAreaOne";
-import CounterAreaOne from "@/components/CounterAreaOne";
-import FaqAreaOne from "@/components/FaqAreaOne";
-import FooterOne from "@/components/FooterOne";
-import NavBar from "@/components/NavBar";
-import NavbarTwo from "@/components/NavbarTwo";
-import ServiceAreaOne from "@/components/ServiceAreaOne";
-import TeamAreaOne from "@/components/TeamAreaOne";
-import WorkProcessOne from "@/components/WorkProcessOne";
+ 
 
 
 
@@ -23,15 +15,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      {/* Navigation Bar */}
-      <NavbarTwo />
+     
 
-
+     <Breadcrumb img="./assets/img/banner06.avif"  title="About Us  "  />
       {/* About Area One */}
       <AboutAreaOne />
 
-      {/* Footer One */}
-      <FooterOne />
+ 
 
     </>
   );

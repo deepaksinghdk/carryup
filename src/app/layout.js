@@ -2,6 +2,8 @@ import BootstrapInit from "@/helper/BootstrapInit";
 import "react-modal-video/scss/modal-video.scss";
 import "./font.css";
 import "./globals.scss";
+import NavbarTwo from "@/components/NavbarTwo";
+import FooterOne from "@/components/FooterOne";
 
 export const metadata = {
   title: "Service || Carryup - Expert Web Design & Development",
@@ -12,8 +14,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+         
       <BootstrapInit />
-      <body suppressHydrationWarning={true}>{children}</body>
+      <body suppressHydrationWarning={true}>
+      <NavbarTwo/>
+        {children}
+        <FooterOne/>
+        </body>
     </html>
   );
 }

@@ -17,17 +17,11 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      {/* Navigation Bar */}
-      <NavBar />
-
-      {/* Navigation Bar */}
-      <Breadcrumb title={"Blog Details"} />
+   
 
       {/* Blog Details Area */}
       <BlogDetailsArea />
-
-      {/* Footer One */}
-      <FooterOne />
+ 
 
     </>
   );

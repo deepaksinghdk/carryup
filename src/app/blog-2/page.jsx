@@ -16,19 +16,12 @@ export const metadata = {
 
 const page = () => {
   return (
-    <>
-      {/* Navigation Bar */}
-      <NavBar />
-
-      {/* Navigation Bar */}
-      <Breadcrumb title={'Blog 02'} />
-
-      {/* BlogGroupTwo */}
+    <>  
+       
+       <Breadcrumb img="./assets/img/banner06.avif"  title="Blog    "  />
       <BlogGroupTwo />
 
-      {/* Footer One */}
-      <FooterOne />
-
+      
     </>
   );
 };
