@@ -56,21 +56,49 @@ const FooterOne = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              <div className="widget widget_nav_menu">
-                <h4 className="widget-title">Our Service</h4>
-                <ul>
-                  <li>
-                    <Link href="#">
-                      <FaArrowRight /> Web Development
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#">
-                      <FaArrowRight /> Web Design
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+            <div className="widget widget_nav_menu">
+      <h4 className="widget-title">Our Services</h4>
+      <ul>
+        <li>
+          <Link href="#">
+            <FaArrowRight /> Web Design
+          </Link>
+        </li>
+        <li>
+          <Link href="#">
+            <FaArrowRight /> UI/UX Design
+          </Link>
+        </li>
+        <li>
+          <Link href="#">
+            <FaArrowRight /> Web Development
+          </Link>
+        </li>
+    
+        <li>
+          <Link href="#">
+            <FaArrowRight /> E-commerce Solutions
+          </Link>
+        </li>
+        <li>
+          <Link href="#">
+            <FaArrowRight /> Custom Software Development
+          </Link>
+        </li>
+        <li>
+          <Link href="#">
+            <FaArrowRight /> Mobile App Development
+          </Link>
+        </li>
+        
+        <li>
+          <Link href="#">
+            <FaArrowRight /> WordPress Development
+          </Link>
+        </li>
+       
+      </ul>
+    </div>
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="widget widget_nav_menu">

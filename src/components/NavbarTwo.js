@@ -2,6 +2,7 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { FaSearch } from "react-icons/fa";
+import '../app/globals.scss'
 
 const NavbarTwo = () => {
   const [active, setActive] = useState(false);
@@ -120,10 +121,18 @@ const NavbarTwo = () => {
                 <Link href="#">Solutions</Link>
                 <ul className="sub-menu ">
                   <li   >
-                    <Link  className="d-flex justify-content-between  " href="#"><div>ToolUp</div>  <div  style={{fontSize:"0.6rem !important;"}} > [Shopify Apps]</div> </Link>
+                    <Link className="d-flex justify-content-between   text-decoration-none " href="https://www.toolup.in/" target="_blank" >
+                      <div className="   " >toolup</div>
+                      {/* <div  style={{ fontSize: "0.6rem !important;" }} > [Shopify Apps]</div> */}
+                      <div  style={{ fontSize: "0.6rem !important;" }} >[Shopify Apps  ]</div>
+                    </Link>
                   </li>
-                  <li   >
-                    <Link  className="d-flex justify-content-between  " href="#"><div>GridAI</div>  <div  style={{fontSize:"0.6rem !important;"}} > [Coming Soon  ]</div> </Link>
+
+                  <li>
+                    <Link className="d-flex justify-content-between text-decoration-none" href="#">
+                      <div className=" "   >gridAI</div>
+                      <div class="blinking-text" style={{ fontSize: "0.6rem !important;" }} >[Coming Soon]</div>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -139,6 +148,7 @@ const NavbarTwo = () => {
           </div> */}
         </div>
       </nav>
+
       {/* ==================== Navbar Two end ====================*/}
     </>
   );

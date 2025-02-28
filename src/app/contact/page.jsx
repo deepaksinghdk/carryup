@@ -17,18 +17,14 @@ export const metadata = {
 const page = () => {
   return (
     <>
+    
       {/* Navigation Bar */}
-      <NavBar />
-
-      {/* Navigation Bar */}
-      <Breadcrumb title={"Contact"} />
+      <Breadcrumb    img="./assets/img/banner06.avif"  title="  Contact"  />
 
       {/* Contact Main */}
       <ContactMain />
 
-      {/* Footer One */}
-      <FooterOne />
-
+    
     </>
   );
 };

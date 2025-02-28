@@ -28,11 +28,11 @@ const BlogGroup = () => {
                 </div>
                 <div className='details'>
                   
-                  <h2 className='title'>
+                  <h3 className='title'>
                     <Link href='/blog-details'>
                       A Beginner's Guide to Running a Successful Agricultural
                     </Link>
-                  </h2>
+                  </h3>
                   <p>
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
@@ -45,7 +45,7 @@ const BlogGroup = () => {
                     className='btn btn-border-base mt-3'
                     href='/service-details'
                   >
-                    Know More <FaPlus />
+                    Know More  
                   </Link>
                 </div>
               </div>
@@ -56,11 +56,11 @@ const BlogGroup = () => {
                 </div>
                 <div className='details'>
                   
-                  <h2 className='title'>
+                  <h3 className='title'>
                     <Link href='/blog-details'>
                       Successful Agricultural Guide to Running Beginner
                     </Link>
-                  </h2>
+                  </h3>
                   <p>
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
@@ -73,7 +73,7 @@ const BlogGroup = () => {
                     className='btn btn-border-base mt-3'
                     href='/service-details'
                   >
-                    Know More <FaPlus />
+                    Know More  
                   </Link>
                 </div>
               </div>
@@ -84,11 +84,11 @@ const BlogGroup = () => {
                 </div>
                 <div className='details'>
                   
-                  <h2 className='title'>
+                  <h3 className='title'>
                     <Link href='/blog-details'>
                       A Beginner's Guide to Running a Successful Agricultural
                     </Link>
-                  </h2>
+                  </h3>
                   <p>
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
@@ -101,7 +101,7 @@ const BlogGroup = () => {
                     className='btn btn-border-base mt-3'
                     href='/service-details'
                   >
-                    Know More <FaPlus />
+                    Know More  
                   </Link>
                 </div>
               </div>

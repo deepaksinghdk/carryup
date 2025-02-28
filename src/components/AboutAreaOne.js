@@ -6,7 +6,7 @@ const AboutAreaOne = () => {
       {/* ================== AboutAreaOne start  ==================*/}
       <div className="pd-top-60 text-center">
         <div className="container">
-          <h2 className="pd-bottom-60">About</h2>
+       
           We are Carryup Innovations, a dynamic and forward-thinking web
           development and design company dedicated to crafting exceptional
           digital experiences. As a team of passionate and driven young

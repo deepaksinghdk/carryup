@@ -1,5 +1,6 @@
 import AboutAreaOne from "@/components/AboutAreaOne";
 import Breadcrumb from "@/components/Breadcrumb";
+import ProjectAreaOne from "@/components/ProjectAreaOne";
  
 
 
@@ -20,7 +21,8 @@ const page = () => {
      <Breadcrumb img="./assets/img/banner06.avif"  title="About Us  "  />
       {/* About Area One */}
       <AboutAreaOne />
-
+   
+<div      className=" pd-bottom-60"   >  <ProjectAreaOne /></div>
  
 
     </>
