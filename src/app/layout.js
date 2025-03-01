@@ -17,9 +17,10 @@ export default function RootLayout({ children }) {
          
        
       <body suppressHydrationWarning={true}>
-      <NavbarTwo/>
-        {children}
+        <NavbarTwo/>
+          {children}
         <FooterOne/>
+        <script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zohopublic.in/widget?wc=siqef17866459a4f91d3aee4bc3eaded954a05ecb8b00f19bcde640887b3a93b70f474c0f3e32ca3e2bd41c641164dd51ab" defer></script>
         </body>
     </html>
   );
