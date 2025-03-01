@@ -3,43 +3,49 @@ import React from "react";
 const AboutAreaOne = () => {
   return (
     <>
-      {/* ================== AboutAreaOne start  ==================*/}
+      {/* ================== AboutAreaOne Start ================== */}
       <div className="pd-top-60 text-center">
         <div className="container">
-       
-          We are Carryup Innovations, a dynamic and forward-thinking web
-          development and design company dedicated to crafting exceptional
-          digital experiences. As a team of passionate and driven young
-          professionals, we bring together creativity, technical expertise, and
-          an unwavering commitment to deliver quality solutions on time. <br />{" "}
-          <br />
-          Our name, “Carryup,” signifies progress and innovation. It reflects
-          our mission to elevate businesses by building impactful websites and
-          digital solutions that blend functionality, aesthetics, and
-          user-centric designs.
-          <br /> <br />
-          At Carryup Innovations, we believe in collaboration and the power of
-          diverse perspectives. Guided by experienced mentors and fueled by the
-          enthusiasm of our versatile team, we take pride in turning ideas into
-          reality. Whether it's developing scalable web applications, designing
-          captivating user interfaces, or creating conversion-driven websites,
-          our goal is to serve our clients with excellence.
-          <br /> <br />
-          We are more than a web development and design company — we are
-          partners in growth. With a focus on timely delivery and unmatched
-          quality, we strive to empower businesses, enhance their digital
-          presence, and help them succeed in an ever-evolving online landscape.
-          <br /> <br />
-          Since our inception, we have worked with clients across industries,
-          crafting solutions that are not just functional but also
-          forward-looking. As we continue to grow, our commitment to innovation
-          and customer satisfaction remains at the heart of everything we do.
-          Together, let’s create a future where technology and creativity work
-          hand-in-hand to achieve extraordinary results.
-          <br /> <br />
+          <p>
+            We are <strong>Carryup</strong>, a dynamic web development and
+            design company creating exceptional digital experiences. Our team of
+            energetic young professionals blends creativity and technical
+            expertise to deliver high-quality work on time.
+          </p>
+
+          <p>
+            The name "<strong>Carryup</strong>" symbolizes progress and
+            innovation. Our mission is to elevate businesses by building
+            websites and digital tools that seamlessly combine functionality,
+            aesthetics, and user-friendly design.
+          </p>
+
+          <p>
+            At "<strong>Carryup</strong>", we embrace teamwork and diverse
+            perspectives. Guided by experienced mentors and fueled by our
+            talented team, we take pride in transforming ideas into reality.
+            Whether it's developing scalable web applications or crafting
+            memorable websites, we are committed to delivering excellence.
+          </p>
+
+          <p>
+            More than just a web development company, we are your partners in
+            business growth. We prioritize timely delivery and outstanding
+            quality, helping companies establish a strong online presence and
+            succeed in an evolving digital landscape.
+          </p>
+
+          <p>
+            Since our inception, we have collaborated with clients from various
+            industries, building solutions that not only meet today's needs but
+            also prepare for the future. As we continue to grow, we remain
+            committed to innovation and customer satisfaction. Let's build a
+            future where technology and creativity unite to achieve remarkable
+            results.
+          </p>
         </div>
       </div>
-      {/* ================== AboutAreaOne End  ==================*/}
+      {/* ================== AboutAreaOne End ================== */}
     </>
   );
 };
