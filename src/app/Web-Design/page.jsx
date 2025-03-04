@@ -1,6 +1,7 @@
 import AboutAreaThree from "@/components/AboutAreaThree";
 import Breadcrumb from "@/components/Breadcrumb";
 import ProjectAreaOne from "@/components/ProjectAreaOne";
+import Timeline from "@/components/TimeLine";
 import WorkProcessFour from "@/components/WorkProcessFour";
 
 
@@ -21,6 +22,7 @@ const page = () => {
       <Breadcrumb img="./assets/img/banner06.avif" />
 
       <AboutAreaThree />
+      <Timeline/>
 
       {/* Project Area One */}
       <ProjectAreaOne />
