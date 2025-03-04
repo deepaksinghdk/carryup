@@ -58,9 +58,6 @@ const page = () => {
         />
       </Head>
 
-      {/* Navigation Bar */}
-   
-
       {/* Banner Three */}
       <BannerThree />
 
@@ -86,11 +83,6 @@ const page = () => {
 
       {/* Contact Area Four */}
       <ContactAreaFour />
-
-      {/* <AboutAreaThree /> */}
-
-      {/* Footer Three */}
-     
     </>
   );
 };

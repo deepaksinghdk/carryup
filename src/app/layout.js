@@ -1,4 +1,3 @@
- 
 import "react-modal-video/scss/modal-video.scss";
 import "./font.css";
 import "./globals.scss";
@@ -14,14 +13,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-         
-       
       <body suppressHydrationWarning={true}>
-        <NavbarTwo/>
-          {children}
-        <FooterOne/>
-        <script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zohopublic.in/widget?wc=siqef17866459a4f91d3aee4bc3eaded954a05ecb8b00f19bcde640887b3a93b70f474c0f3e32ca3e2bd41c641164dd51ab" defer></script>
-        </body>
+        <NavbarTwo />
+        {children}
+        <FooterOne />
+      </body>
     </html>
   );
 }

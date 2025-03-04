@@ -1,22 +1,31 @@
+import Link from "next/link";
 import React from "react";
+import { FaArrowRight } from "react-icons/fa";
 
 const WorkProcessOne = () => {
   return (
     <>
-      {/*==================== Work Process One start ====================*/}
-      <div className="work-process-area pd-top-120">
+      {/*=================== service area start ===================*/}
+      <div
+        className="service-area bg-cover pd-top-120 pd-bottom-90 pd-top-110 pd-bottom-90"
+        style={{ backgroundImage: 'url("./assets/img/bg/3.png")' }}
+      >
         <div className="container">
-          <div className="section-title text-center">
-            <h6 className="sub-title">OUR SIMPLE PROCESS</h6>
-            <h2 className="title">
-              How We Bring <span>Your Vision</span> to Life
-            </h2>
+          <div className="row justify-content-center">
+            <div className="col-xl-6 col-lg-8">
+              <div className="section-title text-center">
+                <h6 className="sub-title">OUR SIMPLE PROCESS</h6>
+                <h2 className="title">
+                  How We Bring <span>Your Vision</span> to Life
+                </h2>
+              </div>
+            </div>
           </div>
           <div className="row">
             <div className="col-xl-3 col-md-6">
               <div className="single-work-process-inner">
-                <div className="thumb mb-3">
-                  <img src="assets/img/icon/9.svg" alt="img" />
+                <div className="thumb mb-4">
+                  <img src="assets/img/icon/18.svg" alt="img" />
                 </div>
                 <div className="details">
                   <p className="process-count">01</p>
@@ -30,7 +39,7 @@ const WorkProcessOne = () => {
             <div className="col-xl-3 col-md-6">
               <div className="single-work-process-inner">
                 <div className="thumb mb-3">
-                  <img src="assets/img/icon/10.svg" alt="img" />
+                  <img src="assets/img/icon/16.svg" alt="img" />
                 </div>
                 <div className="details">
                   <p className="process-count">02</p>
@@ -44,7 +53,7 @@ const WorkProcessOne = () => {
             <div className="col-xl-3 col-md-6">
               <div className="single-work-process-inner">
                 <div className="thumb mb-3">
-                  <img src="assets/img/icon/11.svg" alt="img" />
+                  <img src="assets/img/icon/17.svg" alt="img" />
                 </div>
                 <div className="details">
                   <p className="process-count">03</p>
@@ -58,7 +67,7 @@ const WorkProcessOne = () => {
             <div className="col-xl-3 col-md-6">
               <div className="single-work-process-inner">
                 <div className="thumb mb-3">
-                  <img src="assets/img/icon/12.svg" alt="img" />
+                  <img src="assets/img/icon/20.svg" alt="img" />
                 </div>
                 <div className="details">
                   <p className="process-count">04</p>
@@ -72,7 +81,8 @@ const WorkProcessOne = () => {
           </div>
         </div>
       </div>
-      {/* ==================== Work Process One end ====================*/}
+
+      {/* =================== service area end ===================*/}
     </>
   );
 };
