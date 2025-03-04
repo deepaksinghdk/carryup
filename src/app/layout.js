@@ -12,8 +12,8 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  const widgetCode = "YOUR_WIDGET_CODE"; // Replace with actual widget code
-  const domain = "https://salesiq_url.js"; // Replace with actual SalesIQ domain URL
+  const widgetCode = siqef17866459a4f91d3aee4bc3eaded954a05ecb8b00f19bcde640887b3a93b70f474c0f3e32ca3e2bd41c641164dd51ab; // Replace with actual widget code
+  
 
   return (
     <html lang="en">
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
             }}
           />
         ) : (
-          <div style={{ color: "red" }}>Need to pass widget code</div>
+          <div style={{ color: "red" }}> </div>
         )}
         <NavbarTwo />
         {children}
