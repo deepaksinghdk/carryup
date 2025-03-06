@@ -6,7 +6,8 @@ const AboutAreaThree = () => {
   return (
     <>
       {/* =============== About Area Three End ===============*/}
-      <div className="about-area bg-gradient-gray pd-top-120">
+      <div  className="pd-bottom-100" >
+      <div className="about-area bg-gradient-gray pd-top-120   ">
         <div className="container">
           <div className="row">
             <div
@@ -114,7 +115,7 @@ const AboutAreaThree = () => {
           </div>
         </div>
       </div>
-
+      </div>
       {/* =============== About Area Three End ===============*/}
     </>
   );

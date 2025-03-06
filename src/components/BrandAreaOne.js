@@ -2,7 +2,7 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 const BrandAreaOne = () => {
   return (
-    <div className="about-area">
+    <div className="about-area    pd-bottom-100">
       <div className="container-fluid">
         <div className="client-slider">
           <Marquee gradient={true}>

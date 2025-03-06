@@ -1,8 +1,10 @@
 import AboutAreaThree from "@/components/AboutAreaThree";
 import Breadcrumb from "@/components/Breadcrumb";
 import ProjectAreaOne from "@/components/ProjectAreaOne";
-import Timeline from "@/components/TimeLine";
+import Timeline from "../../components/TimeLine/TimeLine";
 import WorkProcessFour from "@/components/WorkProcessFour";
+import FutureReadyTools from "@/components/FutureReadyTools";
+import TimeLine from "../../components/TimeLine/TimeLine";
 
 
 
@@ -19,13 +21,17 @@ const page = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <Breadcrumb img="./assets/img/banner06.avif" />
+      <Breadcrumb   img="./assets/img/banner06.avif"  />
 
       <AboutAreaThree />
-      <Timeline/>
+     
+<TimeLine/>
 
       {/* Project Area One */}
       <ProjectAreaOne />
+
+
+      <FutureReadyTools/>
 
       <WorkProcessFour />
 

@@ -1,0 +1,34 @@
+.carousel {
+    background: #EFF3FC;
+    min-height: 107vh; /* Increased height for smoother scrolling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.timeline-wrapper{
+    position: relative;
+}
+.contentContainer {
+    
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    width: 80vw; /* Show only 4 cards at a time */
+}
+
+.images {
+    display: flex; /* Use flexbox for horizontal scrolling */
+    gap: 3vw;
+     
+    width: max-content; /* Ensures the entire row is scrollable */
+}
+.imageItem {
+    width: 20vw; /* 4 cards fit in 80vw */
+    flex-shrink: 0; /* Prevents shrinking */
+}
